@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(199, 230, 235);
+}
+table {
+    background-color: whitesmoke;
+}
+
+table, th, td {
+    border: 1px solid rgb(2, 2, 2);
+}
+td {
+    width:20px;
+    text-align: center;
+}
+
+.flx {
+
+ display: flex;
+ justify-content: center;
+}
+
+.flx-1 {
+display: grid;
+grid-template-columns: 1fr;
+justify-items: center;
+margin-bottom: 3%;
+}
+
+.radio {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    display: flex;
+    
+}
+.radio label {
+    margin-left: 3%;
+    margin-right: 3%; 
+}
+
+label {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}

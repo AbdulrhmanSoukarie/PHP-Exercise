@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.login-form {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+ 
+   
+}
+h1 {
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+    color: #afafaf;
+    
+}
+.middle {
+  font-family:'Roboto', sans-serif;
+
+  color: red;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+     padding-bottom: 1rem;
+     padding-top: 1rem;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 5px 5px 20px #afafaf,
+                -5px -5px 20px #f5f5f5;
+    
+    width: 400px;
+   
+}
+
+ input {
+
+        border: none;
+        outline:none;
+        background: none;
+        font-size: 16px;
+        color: #555;
+        padding:14px 10px 14px 5px;
+        border-radius: 25px;
+        box-shadow: inset 4px 4px 4px #cbced1,
+                    inset -4px -4px 4px #ffffff;
+}
+ 
+button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #21a78a;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+  button:hover {
+    background:#2fdbb6;
+  }
+  button:active {
+    background:#1da88a;
+  }
